@@ -66,19 +66,12 @@
   .btn-primary:hover { background: #1f5f99; }
   .btn-outline { background: transparent; color: #2e75b6; border: 1px solid #2e75b6; }
   .btn-outline:hover { background: #f0f7ff; }
-  .empty {
-    text-align: center;
-    padding: 60px 20px;
-    color: #8c9bab;
-  }
-  .empty-icon { font-size: 48px; margin-bottom: 16px; }
   .footer {
     text-align: center;
     padding: 24px;
     color: #8c9bab;
     font-size: 12px;
   }
-  /* 图片预览弹窗 */
   .modal {
     display: none;
     position: fixed;
@@ -110,27 +103,164 @@
 
 <div class="header">
   <h1>马帮助手 SOP 流程图</h1>
-  <p>新人带教标准操作流程 · 点击图片可放大查看</p>
+  <p>新人带教标准操作流程 · 共 11 个主题 · 点击图片可放大查看</p>
 </div>
 
 <div class="container">
 
-  <!-- SOP 流程图卡片 -->
   <div class="card">
     <div class="card-header">
-      <span class="card-title">订单处理流程 SOP</span>
-      <span class="card-meta">更新于 2026-08-25</span>
+      <span class="card-title">01. 新人入职操作指南</span>
+      <span class="card-meta">店铺授权 · 标发流程</span>
     </div>
     <div class="card-body">
-      <img src="sop-flow.png" alt="订单处理流程 SOP" onclick="openModal(this.src)">
+      <img src="01_新人入职操作指南.png" alt="新人入职操作指南" onclick="openModal(this.src)">
     </div>
     <div class="card-actions">
-      <a class="btn btn-primary" href="sop-flow.png" download>下载原图</a>
-      <a class="btn btn-outline" href="sop-flow.png" target="_blank">新窗口打开</a>
+      <a class="btn btn-primary" href="01_新人入职操作指南.png" download>下载原图</a>
+      <a class="btn btn-outline" href="01_新人入职操作指南.png" target="_blank">新窗口打开</a>
     </div>
   </div>
 
-  <!-- 后续添加新图片时，复制上面的 card 块即可 -->
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">02. 订单审核</span>
+      <span class="card-meta">审核规则 · 异常单处理</span>
+    </div>
+    <div class="card-body">
+      <img src="02_订单审核.png" alt="订单审核" onclick="openModal(this.src)">
+    </div>
+    <div class="card-actions">
+      <a class="btn btn-primary" href="02_订单审核.png" download>下载原图</a>
+      <a class="btn btn-outline" href="02_订单审核.png" target="_blank">新窗口打开</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">03. 店铺授权与匹配</span>
+      <span class="card-meta">店铺命名 · SKU匹配</span>
+    </div>
+    <div class="card-body">
+      <img src="03_店铺授权与匹配.png" alt="店铺授权与匹配" onclick="openModal(this.src)">
+    </div>
+    <div class="card-actions">
+      <a class="btn btn-primary" href="03_店铺授权与匹配.png" download>下载原图</a>
+      <a class="btn btn-outline" href="03_店铺授权与匹配.png" target="_blank">新窗口打开</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">04. 商品与库存</span>
+      <span class="card-meta">库存标记 · 盘点流程</span>
+    </div>
+    <div class="card-body">
+      <img src="04_商品与库存.png" alt="商品与库存" onclick="openModal(this.src)">
+    </div>
+    <div class="card-actions">
+      <a class="btn btn-primary" href="04_商品与库存.png" download>下载原图</a>
+      <a class="btn btn-outline" href="04_商品与库存.png" target="_blank">新窗口打开</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">05. 高级搜索设置</span>
+      <span class="card-meta">缺货订单 · 订单处理</span>
+    </div>
+    <div class="card-body">
+      <img src="05_高级搜索设置.png" alt="高级搜索设置" onclick="openModal(this.src)">
+    </div>
+    <div class="card-actions">
+      <a class="btn btn-primary" href="05_高级搜索设置.png" download>下载原图</a>
+      <a class="btn btn-outline" href="05_高级搜索设置.png" target="_blank">新窗口打开</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">06. 异常订单处理（未同步/拦截）</span>
+      <span class="card-meta">订单问题 · 规则构造</span>
+    </div>
+    <div class="card-body">
+      <img src="06_异常订单处理_未同步拦截.png" alt="异常订单处理" onclick="openModal(this.src)">
+    </div>
+    <div class="card-actions">
+      <a class="btn btn-primary" href="06_异常订单处理_未同步拦截.png" download>下载原图</a>
+      <a class="btn btn-outline" href="06_异常订单处理_未同步拦截.png" target="_blank">新窗口打开</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">07. 批量改价与调价</span>
+      <span class="card-meta">价格规则 · 批量操作</span>
+    </div>
+    <div class="card-body">
+      <img src="07_批量改价与调价.png" alt="批量改价与调价" onclick="openModal(this.src)">
+    </div>
+    <div class="card-actions">
+      <a class="btn btn-primary" href="07_批量改价与调价.png" download>下载原图</a>
+      <a class="btn btn-outline" href="07_批量改价与调价.png" target="_blank">新窗口打开</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">08. 批量操作</span>
+      <span class="card-meta">批量设置 · 操作说明</span>
+    </div>
+    <div class="card-body">
+      <img src="08_批量操作.png" alt="批量操作" onclick="openModal(this.src)">
+    </div>
+    <div class="card-actions">
+      <a class="btn btn-primary" href="08_批量操作.png" download>下载原图</a>
+      <a class="btn btn-outline" href="08_批量操作.png" target="_blank">新窗口打开</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">09. 物流与发货</span>
+      <span class="card-meta">物流规则 · 发货流程</span>
+    </div>
+    <div class="card-body">
+      <img src="09_物流与发货.png" alt="物流与发货" onclick="openModal(this.src)">
+    </div>
+    <div class="card-actions">
+      <a class="btn btn-primary" href="09_物流与发货.png" download>下载原图</a>
+      <a class="btn btn-outline" href="09_物流与发货.png" target="_blank">新窗口打开</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">10. 数据报表统计</span>
+      <span class="card-meta">报表设置 · 数据分析</span>
+    </div>
+    <div class="card-body">
+      <img src="10_数据报表统计.png" alt="数据报表统计" onclick="openModal(this.src)">
+    </div>
+    <div class="card-actions">
+      <a class="btn btn-primary" href="10_数据报表统计.png" download>下载原图</a>
+      <a class="btn btn-outline" href="10_数据报表统计.png" target="_blank">新窗口打开</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">11. 其他操作杂项</span>
+      <span class="card-meta">杂项设置 · 补充说明</span>
+    </div>
+    <div class="card-body">
+      <img src="11_其他操作杂项.png" alt="其他操作杂项" onclick="openModal(this.src)">
+    </div>
+    <div class="card-actions">
+      <a class="btn btn-primary" href="11_其他操作杂项.png" download>下载原图</a>
+      <a class="btn btn-outline" href="11_其他操作杂项.png" target="_blank">新窗口打开</a>
+    </div>
+  </div>
 
 </div>
 
@@ -138,7 +268,6 @@
   马帮助手 · SOP 图片目录 · 钉钉群内可直接访问
 </div>
 
-<!-- 图片预览弹窗 -->
 <div class="modal" id="imgModal" onclick="closeModal()">
   <span class="modal-close">&times;</span>
   <img id="modalImg" src="" alt="">
